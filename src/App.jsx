@@ -1,8 +1,9 @@
-
+import Header from "./component/Header"
+//import Prueba from "./component/Prueba"
 const App =()=> {
 
   return (
-    <h1>Hola mundo!!!!</h1>
+    <Header />
   )
 }
 
