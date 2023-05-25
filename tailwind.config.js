@@ -7,14 +7,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        myPalet: '#2C3333',
-        myPalet: {
-          50: '#CBE4DE',
-          500: '#0E8388',
-          900: '#2E4F4F',
-          1000: '#2C3333',
+        myPalet: 
+        {
+          50: '#F1F6F9',
+          500: '#9BA4B5',
+          900: '#394867',
+          1000: '#212A3E',
         },
       },
+      fontFamily: {
+        raleway: ["Raleway", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
+      }
     },
   },
   plugins: [],
