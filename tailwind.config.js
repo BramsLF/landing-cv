@@ -18,7 +18,10 @@ export default {
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
         lato: ["Lato", "sans-serif"],
-      }
+      },
+      height: {
+        "height-navbar": "calc(100vh - 120px)",
+      },
     },
   },
   plugins: [],

@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <section className="flex lg:px-8 p-2 justify-between">
+    <section className="lg:px-8 lg:h-24 fixed top-0 z-10 w-full flex p-2 justify-between bg-white lg:backdrop-blur-md lg:bg-opacity-70 h-16">
       
       <div className="flex items-center mx-2 w-1/5 text-slate-900">
         <img className="h-12 w-auto" src={logo} alt="BramsLF" />
@@ -40,7 +40,7 @@ const Navbar = () => {
 
       <div className="lg:hidden w-full flex justify-end">
         <button
-          className="flex items-center justify-end h-16 px-2"
+          className="flex items-center justify-end h-12 px-2"
           onClick={() => openMenu()}
         >
           <svg viewBox="0 0 24 24" className="w-8 stroke-slate-900">
@@ -60,7 +60,7 @@ const Navbar = () => {
             openLateralMenu ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          <div className="min-h-full w-[min(20rem,calc(100vw-theme(spacing.10)))] bg-white shadow-2xl">
+          <div className="min-h-full w-[min(20rem,calc(100vw-theme(spacing.10)))] bg-white backdrop-blur-md bg-opacity-90 shadow-2xl">
             <div className="px-6 w-full h-20 flex justify-between items-center border-b-2">
               <img className="w-10" src={logo} alt="BramsLF" />
               <button className="w-5" onClick={() => openMenu()}>
